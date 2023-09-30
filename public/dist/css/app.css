@@ -1,0 +1,76 @@
+.card-header:first-child {
+    justify-content: center !important;
+    flex-direction: row-reverse;
+}
+a {
+    text-decoration: none !important;
+}
+
+img, svg {
+    vertical-align: unset !important;
+}
+
+@media screen and (max-width: 767px) {
+    div.dataTables_wrapper div.dataTables_length {
+        text-align: right !important;
+    }
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+        justify-content: center !important;
+    }
+}
+#DataTables_Table_0_length {
+    margin-bottom: 10px;
+}
+.dataTables_filter {
+    justify-content: flex-start !important;
+}
+.card-body {
+    overflow-x: scroll !important;
+}
+
+.owl-stage {
+    text-align: center;
+}
+
+.owl-dots {
+    display: none;
+}
+.owl-stage-outer {
+    direction: initial !important;
+}
+.btn {
+    margin: 0 5px;
+}
+
+.text-light {
+    font-weight: bold;
+    color: #333 !important;
+    font-size: 2rem;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text-with-dots {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 20rem;
+}
+
+@media (max-width: 767px) {
+    #DataTables_Table_0_wrapper {
+        overflow-x: auto;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 800px;
+        margin: 1.75rem auto;
+    }
+}
+.center-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
